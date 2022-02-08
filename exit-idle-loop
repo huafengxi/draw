@@ -1,1 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2022-02-08T12:49:00.437Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" version="16.5.3" etag="Cc-TlollGfUITCsuQAA-" type="github"><diagram id="ZZw5-dD1kdz3UvTyjuad">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-08T12:51:42.755Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="gCXqa8MLy3YkxoAnz7oF" version="16.5.3" type="github">
+  <diagram id="ZZw5-dD1kdz3UvTyjuad" name="Page-1">
+    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lMZIClpaKvLxsq6zPcvl-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lMZIClpaKvLxsq6zPcvl-1" target="lMZIClpaKvLxsq6zPcvl-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lMZIClpaKvLxsq6zPcvl-1" value="uthread保存jmp ctx" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="60" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lMZIClpaKvLxsq6zPcvl-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lMZIClpaKvLxsq6zPcvl-2" target="lMZIClpaKvLxsq6zPcvl-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lMZIClpaKvLxsq6zPcvl-2" value="跳转到sched thread" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="100" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lMZIClpaKvLxsq6zPcvl-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lMZIClpaKvLxsq6zPcvl-3" target="lMZIClpaKvLxsq6zPcvl-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lMZIClpaKvLxsq6zPcvl-3" value="sched thread唤醒pthread" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="140" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lMZIClpaKvLxsq6zPcvl-4" value="pthread退出idle loop&lt;br&gt;跳转到uthread的jmp ctx" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="180" width="140" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
